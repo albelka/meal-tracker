@@ -20,9 +20,9 @@ import { Meal } from './meal.model';
 export class AppComponent {
   masterMealList: Meal[] = [
     new Meal('mac n cheese', 'with breadcrumbs', 333),
-    new Meal('pizza', 'extra cheese', 322),
+    new Meal('pizza', 'extra cheese', 522),
     new Meal('bagel', 'extra cream cheese', 277),
-    new Meal('fondue', 'apples are good for you', 403),
+    new Meal('fondue', 'apples are good for you', 503),
     new Meal('salad', 'no dressing', 57),
   ];
 
