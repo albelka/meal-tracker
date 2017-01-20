@@ -1,0 +1,41 @@
+button {
+  border-radius: 25px;
+  background: radial-gradient(yellow, white);
+  padding: 10px;
+  color: darkcyan;
+  border-color: goldenrod;
+  border-style: double;
+}
+
+body {
+  background: radial-gradient(greenyellow, seagreen )
+}
+
+.list {
+  background: linear-gradient( darkseagreen, darkcyan );
+  padding: 10px;
+  margin:10px;
+  border-radius: 20px;
+  width: 200px;
+  color: white;
+  display: inline-block;
+  border-style:ridge;
+  border-color: darkseagreen;
+}
+
+.header {
+
+  background-image: url("/../resources/images/banner.png");
+  background-size: contain;
+
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.select {
+  display: inline-block;
+  margin-top: 0px;
+}

@@ -4,14 +4,17 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'meal-list',
   template: `
-  <h3>Only Show:</h3>
+  <div class="select">
+  <h3>Show Me:</h3>
     <select (change)="onChange($event.target.value)">
       <option value="allMeals" selected="selected"> All Meals</option>
       <option value="highCalorieMeals">High Calorie Meals</option>
       <option value="lowCalorieMeals">Low Calorie Meals</option>
     </select>
+    </div>
+    <br>
 
-  <div *ngFor="let currentMeal of childMealList | byCalories:filterByCalories">
+  <div class="list" *ngFor="let currentMeal of childMealList | byCalories:filterByCalories">
     <h4>{{currentMeal.name}}</h4>
     <p>{{currentMeal.details}}</p>
     <p>Calories: {{currentMeal.calories}}</p>

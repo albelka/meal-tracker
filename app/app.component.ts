@@ -4,12 +4,20 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'app-root',
   template: `
+  <div class="header">
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
   <h1>Meal Tracker</h1>
   <div class="container">
 
     <meal-list [childMealList]="masterMealList" (clickSender)="editMeal($event)"></meal-list>
 
     <edit-meal [childSelectedMeal]="selectedMeal" (doneButtonClickedSender)="finishedEditing()"></edit-meal>
+
+    <calorie-counter [childMealList]="masterMealList"></calorie-counter>
 
     <new-meal (newMealSender)="addMeal($event)"></new-meal>
 
@@ -39,5 +47,7 @@ export class AppComponent {
   finishedEditing() {
     this.selectedMeal = null;
   }
+
+
 
 }
