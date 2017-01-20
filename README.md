@@ -1,6 +1,6 @@
 # Meal Tracker
 
-#### Is an exercise in Angular 2. It allows a user to record their meals. 1.20.17.
+#### Meal Tracker is an exercise in Angular 2. It allows a user to record their meals. 1.20.17.
 
 #### By **Anne Belka**
 

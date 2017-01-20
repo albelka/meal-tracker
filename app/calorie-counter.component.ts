@@ -4,7 +4,7 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'calorie-counter',
   template: `
-    <h3> Total Calories: {{countCalories()}}</h3>
+    <h3> Total Daily Calories: {{countCalories()}}</h3>
   `
 })
 
