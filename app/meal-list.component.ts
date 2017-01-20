@@ -11,7 +11,6 @@ import { Meal } from './meal.model';
     <br>
   </div>
 <hr>
-
   `
 })
 
